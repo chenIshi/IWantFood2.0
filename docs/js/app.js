@@ -1,6 +1,11 @@
 window.onload = function() {
     
-
+    if($(window).width() < 767)
+    {
+        $( "#chung_photo" ).attr( "data-background-image", "asset/pic/a3xR7wy_mobile.jpg" );
+    } else {
+        $( "#chung_photo" ).attr( "data-background-image", "asset/pic/a3xR7wy.jpg" );
+    }
 
     Reveal.initialize({
         controls: true,
