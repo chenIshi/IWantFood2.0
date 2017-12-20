@@ -1,10 +1,20 @@
 window.onload = function() {
     
+
+    //RWD of diff Window Revolution
     if($(window).width() < 767)
     {
         $( "#chung_photo" ).attr( "data-background-image", "asset/pic/a3xR7wy_mobile.jpg" );
+        $( "#lu_photo" ).attr( "data-background-image", "asset/pic/Hd5IZEl_mobile.jpg" );
+        $( "#liu_photo" ).attr( "data-background-image", "asset/pic/TAS7SBI_mobile.jpg" );
+        $( "#wang_photo" ).attr( "data-background-image", "asset/pic/pHZPMiP_mobile.jpg" );
+        $( "#chen_photo" ).attr( "data-background-image", "asset/pic/ZA2q9Pr_mobile.jpg" );
     } else {
         $( "#chung_photo" ).attr( "data-background-image", "asset/pic/a3xR7wy.jpg" );
+        $( "#lu_photo" ).attr( "data-background-image", "asset/pic/Hd5IZEl.jpg" );
+        $( "#liu_photo" ).attr( "data-background-image", "asset/pic/TAS7SBI.jpg" );
+        $( "#wang_photo" ).attr( "data-background-image", "asset/pic/pHZPMiP.jpg" );
+        $( "#chen_photo" ).attr( "data-background-image", "asset/pic/ZA2q9Pr.jpg" );
     }
 
     Reveal.initialize({
