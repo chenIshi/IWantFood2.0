@@ -9,12 +9,22 @@ window.onload = function() {
         $( "#liu_photo" ).attr( "data-background-image", "asset/pic/TAS7SBI_mobile.jpg" );
         $( "#wang_photo" ).attr( "data-background-image", "asset/pic/pHZPMiP_mobile.jpg" );
         $( "#chen_photo" ).attr( "data-background-image", "asset/pic/ZA2q9Pr_mobile.jpg" );
+
+        $( "#facebookLogIn").attr( "data-background-image", "asset/pic/mobile/facebookLogIn.jpg" );
+        $( "#userSignIn").attr( "data-background-image", "asset/pic/mobile/userSignIn.jpg" );
+        $( "#chooseYourGoal").attr( "data-background-image", "asset/pic/mobile/chooseYourGoal.jpg" );
+    
+
     } else {
         $( "#chung_photo" ).attr( "data-background-image", "asset/pic/a3xR7wy.jpg" );
         $( "#lu_photo" ).attr( "data-background-image", "asset/pic/Hd5IZEl.jpg" );
         $( "#liu_photo" ).attr( "data-background-image", "asset/pic/TAS7SBI.jpg" );
         $( "#wang_photo" ).attr( "data-background-image", "asset/pic/pHZPMiP.jpg" );
         $( "#chen_photo" ).attr( "data-background-image", "asset/pic/ZA2q9Pr.jpg" );
+
+        $( "#facebookLogIn" ).attr( "data-background-image", "asset/pic/laptop/facebookLogIn.jpg" );
+        $( "#userSignIn").attr( "data-background-image", "asset/pic/laptop/userSignIn.jpg" );
+        $( "#chooseYourGoal").attr( "data-background-image", "asset/pic/laptop/chooseYourGoal.jpg" );    
     }
 
     Reveal.initialize({

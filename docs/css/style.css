@@ -26,14 +26,7 @@ li {
   color: #373C38 !important;
   font-size: 1em !important; }
 
-@media screen and (max-width: 320px) {
-  #chung_photo {
-    data-background-image: "../asset/pic/a3xR7wy_mobile.jpg"; } }
-@media screen and (min-width: 1200px) {
-  #chung_photo {
-    data-background-image: "../asset/pic/a3xR7wy.jpg"; } }
-@media screen and (min-width: 320px) and (max-width: 1200px) {
-  #chung_photo {
-    data-background-image: "../asset/pic/a3xR7wy.jpg"; } }
+.content {
+  opacity: 0.9; }
 
 /*# sourceMappingURL=style.css.map */
