@@ -14,8 +14,8 @@ window.onload = function() {
         $( "#userSignIn").attr( "data-background-image", "asset/pic/mobile/findFacebookPage.jpg" );
         $( "#chooseYourGoal").attr( "data-background-image", "asset/pic/mobile/userSignIn_v2.jpg" );
         $( "#studentFeeding").attr( "data-background-image", "asset/pic/mobile/feedByStudent_v2.jpg" );
-        $( "##shopFeeding").attr( "data-background-image", "asset/pic/mobile/feedByShop.jpg" );
-        $( "##shopFeedingMore").attr( "data-background-image", "asset/pic/mobile/feedByShopMore.jpg" );
+        $( "#shopFeeding").attr( "data-background-image", "asset/pic/mobile/feedByShop.jpg" );
+        $( "#shopFeedingMore").attr( "data-background-image", "asset/pic/mobile/feedByShopMore.jpg" );
         
     
 
