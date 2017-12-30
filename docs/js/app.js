@@ -11,10 +11,12 @@ window.onload = function() {
         $( "#chen_photo" ).attr( "data-background-image", "asset/pic/ZA2q9Pr_mobile.jpg" );
 
         $( "#facebookLogIn").attr( "data-background-image", "asset/pic/mobile/facebookLogin_v3.jpg" );
-        $( "#userSignIn").attr( "data-background-image", "asset/pic/mobile/userSignIn.jpg" );
-        $( "#chooseYourGoal").attr( "data-background-image", "asset/pic/mobile/chooseYourGoal.jpg" );
+        $( "#userSignIn").attr( "data-background-image", "asset/pic/mobile/findFacebookPage.jpg" );
+        $( "#chooseYourGoal").attr( "data-background-image", "asset/pic/mobile/userSignIn_v2.jpg" );
         $( "#studentFeeding").attr( "data-background-image", "asset/pic/mobile/feedByStudent_v2.jpg" );
-
+        $( "##shopFeeding").attr( "data-background-image", "asset/pic/mobile/feedByShop.jpg" );
+        $( "##shopFeedingMore").attr( "data-background-image", "asset/pic/mobile/feedByShopMore.jpg" );
+        
     
 
     } else {
