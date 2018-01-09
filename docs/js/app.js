@@ -26,9 +26,11 @@ window.onload = function() {
         $( "#wang_photo" ).attr( "data-background-image", "asset/pic/pHZPMiP.jpg" );
         $( "#chen_photo" ).attr( "data-background-image", "asset/pic/ZA2q9Pr.jpg" );
 
-        $( "#facebookLogIn" ).attr( "data-background-image", "asset/pic/laptop/facebookLogIn.jpg" );
-        $( "#userSignIn").attr( "data-background-image", "asset/pic/laptop/userSignIn.jpg" );
-        $( "#chooseYourGoal").attr( "data-background-image", "asset/pic/laptop/chooseYourGoal.jpg" );    
+        $( "#facebookLogIn" ).attr( "data-background-image", "asset/pic/laptop/first.jpg" );
+        $( "#userSignIn").attr( "data-background-image", "asset/pic/laptop/second.jpg" );
+        $( "#chooseYourGoal").attr( "data-background-image", "asset/pic/laptop/third.jpg" ); 
+        $( "#studentFeeding").attr( "data-background-image", "asset/pic/laptop/forth.jpg" );
+        $( "#shopFeeding").attr( "data-background-image", "asset/pic/laptop/fifth.jpg" );           
     }
 
     Reveal.initialize({
